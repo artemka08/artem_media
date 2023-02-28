@@ -1,0 +1,336 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: color 0.2s;
+  transition: width 0.2s;
+  font-family: 'Open Sans', sans-serif !important;
+}
+body{
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color:#E5E5E5;
+  
+}
+.slide-container{
+  padding-bottom: 10%;
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+
+}
+.card:hover{
+  box-shadow: 10px 10px 10px rgba(30, 104, 157, 0.2);
+  background-color: #F3F9FB;
+
+
+}
+.card{
+ 
+  background-color:#F3F9FB;
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+ 
+
+}
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  
+}
+.overlay::after{
+
+  background-color: #FFF;
+}
+.card-image{
+  position: relative;
+  margin-left: -58%;
+  margin-top: -3%;
+ width: 110px;
+ height: 83px;
+
+
+  padding: 3px;
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.card {
+  border: 1px solid #777777;
+  
+}
+
+.title{
+  margin-left: 10.5%;
+   margin-top: 4%;
+     font-size: 15px;
+   color: #1E689D;
+   height: 33px;
+ }
+
+
+.card:hover .problems{
+  color: #1E689D;
+  }
+
+.card:hover .line{
+  width: 100%;
+  transition: color 0.2s;
+  transition: width 0.2s;  
+  }
+  .card:hover .line hr{
+    border-color: #1E689D;
+
+  }
+
+
+
+
+.swiper-navBtn{
+
+  transition: color 0.3s ease;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  margin-top: -200PX;
+  right: 0;
+}
+.swiper-button-prev{
+  margin-top: -200PX;
+  left: 0;
+}
+.swiper-pagination-bullet{
+border-radius: 1px;
+width: 30px; 
+height: 3px;
+opacity: 1;
+background-color:#777777;;
+}
+.swiper-pagination-bullet-active{
+
+}
+.swiper-pagination{
+  padding-bottom: 1%;
+}
+
+
+
+
+
+
+.sublevel{
+  flex-direction: row;
+}
+
+
+.date{
+  display: flex;
+  flex-direction: row;
+  padding-left: 78%;
+  margin-top: -28%;
+  font-size: 11px;
+
+}
+.img_date{
+  padding-right: 8%;
+}
+
+.textPlace{
+  align-self: center;
+  padding-top:1%;
+  padding-left:40%;
+}
+
+.authorName{
+  color: #1E1E1E;
+
+  font-size: 14px;
+}
+.aboutAuthor{
+  font-size: 60%;
+
+  color: #777777;
+}
+
+.education{
+font-size: 15px;
+  font-weight: 700;
+color: #1E1E1E;
+}
+
+.enter{
+  width: 55px;
+  height: 25px;
+}
+.buttonclick{
+
+
+padding-top: 3%;
+padding-left: 80%;
+
+}
+
+.lowLevel{
+  margin-top: -10%;
+  margin-left: -4%;
+}
+.lowText{
+  padding-left: 5%;
+ 
+}
+
+.line{
+  padding-top: 1%;
+width: 60% ;
+height: 10px;
+}
+
+
+.blablabla{
+font-size: 70%;
+  padding-top: 1%;
+  padding-right: 5%;
+  color: #1E1E1E;
+}
+
+
+
+
+ footer
+{ 
+    display: flex;
+    width: 100%;
+    background-color: #1E689D;
+    color:#FFFFFF;
+   background-size: cover;
+   padding-bottom: 40px   ;
+  }
+  
+  .cifra{
+  
+    margin-left: 18%;
+    margin-top: 5%;
+    font-size: 25px;
+  }
+  .gazeta{
+    margin-left: 36%;
+    margin-top: -6.5%;
+    font-size: 15px;
+  }
+  .psuti_logo{
+    
+    size:20%;
+    margin-left: 89%;
+    margin-top: -3% ;
+  }
+ 
+  .adress{
+    margin-left: 13%;
+  }
+  .icons{
+    
+    margin-left: -80%;
+    margin-top: -20%;
+  }
+  
+
+  
+  .upperfoot{
+    
+    align-items: center;
+    width: 100%;
+  }
+  .info{
+  
+    font-size: 60%;
+    margin-top: 150%;
+    margin-left:-720% ;
+  }
+  .adress{
+    margin-top: 2%;
+    margin-left:0%;
+  }
+  
+  .telega{
+    cursor: pointer;
+  }
+  .web{
+    cursor: pointer;
+    margin-left: 30%;
+   margin-top: -15%;
+  }
+
+
+
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}
+
+
+/* @media screen and (max-width: 1080px){
+.title{
+  font-size: 25px;
+  line-height: 33px;
+  font-weight: 700;
+  margin-left: 314.64px;
+}
+.slide-container{
+  margin-left: 314.64px;
+}
+.card{
+  width: 630px;
+  height: 450px;
+}
+
+} */
